@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width", initial-scale=1.0, user-scalable=0, min-scale=1.0">
+    <title>Інформаційна сторінка</title>
+
+    <link rel="stylesheet" href="Styles.css">
+    <script src="js/jquery-3.6.0.min.js"></script>
+</head>
+<body>
+
+<div class =wrapper>
+    <header class =header>
+        <div class = container>
+            <div class =header_body>
+                <a href="Pages.html" class="header_logo">
+                    <img src="svg/dnd-svgrepo-com.svg" alt="">
+                    <kk>
+                        <h1>
+                            DND
+                        </h1>
+                        <h2>
+                            workshop
+                        </h2>
+                    </kk>
+
+                </a>
+                <div class="header_burger">
+
+                </div>
+                <nav class="header_menu">
+                    <ul class="header_list">
+                        <li>
+                            <a href="Container.html" class="header_link">
+                                <img src="svg/chest-svgrepo-com.svg" alt="" width="40px" >
+                                <h>Інвентар</h>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="Container.html" class="header_link">
+                                <img src="svg/person-svgrepo-com.svg" alt="" width="40px" >
+                                <h>Персонаж</h>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="Container.html" class="header_link">
+                                <img src="svg/lion-svgrepo-com.svg" alt="" width="40px" >
+                                <h>Бестіарій</h></a>
+                        </li>
+                        <li>
+
+                            <a href="Container.html" class="header_link">
+                                <img src="svg/pen-tool-svgrepo-com.svg" alt="" width="40px" >
+                                <h>Майстерня</h></a>
+                        </li>
+                    </ul>
+
+                </nav>
+
+            </div>
+        </div>
+    </header>
+    <div class =content>
+        <div class = container>
+            <div class =content_text>
+                <b1>
+                    <h1>Для чого створений цей сайт?</h1>
+                    <p1>Цей сайт є онлайн збірником та інструментаруєм українською мовою для проведення ігрових партій в ДнД.</p1>
+
+                </b1>
+                <b1>
+                    <h1>Підземелля та дракони</h1>
+                    <p1>ДнД або Підземелля та дракони — це настільна рольова гра з багатим лором в якій майстер підземелля створює історію а гравці як її учасники взаємодіють з світом цієїі історії обмежуючись лише своїми можливостями та фантазією</p1>
+
+                </b1>
+                <b1>
+                    <h1>Майстер підземелля</h1>
+                    <p1>Майстер — це оповідач історії, творець світу, де проходить гра. Він створює історію в яку потрапляють гравці та веде їх по ній, розповідаючи та відображаючи все що відбувається навколо. </p1>
+
+                </b1>
+                <b1>
+                    <h1>Гравці</h1>
+                    <p1>Гравці — це основні персонажі всесвіту, в який їх занурив майстер. Уявивши світ в якому вони зараз знаходяться, гравці стають героями, яким потрібно пережити шалені пригоди на своєму шляху. Гравець не лише людина що сидить за столом поряд з друзями, гравець  — це індивідуальний персонаж, зі своєю історію, особливостями та характером, створений самостійно і занурений в шалений світ пригод.</p1>
+
+                </b1>
+                <b1>
+                    <h1>Підтримка</h1>
+                    <p1>Всі матеріали розміщені на безкоштовній основі і ми не вимагаємо від вас нічого, але якщо бажаєте підтримати нас та розвиток сайту, то краще підтримайте ЗСУ та ТРО)))</p1>
+
+                </b1>
+                <b1>
+                    <h1>Відмова від відповідальності</h1>
+                    <p1>Матеріали на даному сайті наведені виключно в довідкових та ознайомлювальних цілях та не замінюють необхідності купівлі офіційних матеріалів з гри.</p1>
+                    <p1>Весь графічний матеріал та система Dungeons&Dragons є власністю корпорації Wizards of the Coast.</p1>
+
+                </b1>
+
+
+
+
+
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<script>
+    $( ".header_burger" ).click(function () {
+        $(".header_burger,.header_menu" ).toggleClass("active");
+        $("body" ).toggleClass("lock");
+    });
+</script>
+
+
+</body>
+</html>
