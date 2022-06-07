@@ -314,6 +314,9 @@ body {
   margin-right: 10px;
   padding-bottom: 20px;
 }
+.overlay h {
+  font-size: 36px;
+}
 .overlay .img_close {
   top: 0;
   right: 0px;
